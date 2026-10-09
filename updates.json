@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "farental-browser-extension@anjclerc": {
+      "updates": [
+        {
+          "version": "0.3.0",
+          "update_link": "https://github.com/anjclerc/farental-bar/releases/download/v0.3.0/farental-bar.xpi"
+        }
+      ]
+    }
+  }
+}
