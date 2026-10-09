@@ -14,6 +14,8 @@ Ta tâche **Farental** en cours, directement dans la barre d'outils de Firefox o
 - **Tâche terminée** : l'icône pulse avec un fin trait ambré. Un clic affiche la page du jeu (en réutilisant l'onglet Farental déjà ouvert) pour réclamer ta récompense.
 - **Un clic pendant la tâche** ouvre une petite fenêtre : titre complet, décompte à la seconde, heure de fin.
 - **« Zz »** quand ton personnage ne fait rien.
+- **Bouton Carte** : ouvre la [carte communautaire](https://umap.openstreetmap.fr/fr/map/farental_1470573) centrée sur le lieu de ton personnage (déduit de ton dernier voyage).
+- **Liste de courses** : note tes recettes, leurs ingrédients et les quantités, coche ce que tu as déjà, choisis une recette à faire en priorité. Les recettes faites vont dans un historique, d'où tu peux les relancer.
 - S'adapte aux thèmes clair et sombre ; en français, anglais et allemand.
 
 > Extension **non officielle**, créée par un joueur. Version alpha : merci de signaler ce qui cloche !
@@ -28,7 +30,12 @@ Ta tâche **Farental** en cours, directement dans la barre d'outils de Firefox o
 
 ### Chrome, Edge, Brave…
 
-La fiche du Chrome Web Store est en cours de validation : le lien sera ajouté ici dès qu'elle sera publiée.
+La fiche du Chrome Web Store est en cours de validation : le lien sera ajouté ici dès qu'elle sera publiée. En attendant :
+
+1. Télécharge **[farental-bar-chrome.zip](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar-chrome.zip)** et décompresse-le dans un dossier que tu gardes (ne le supprime pas, le navigateur l'utilise).
+2. Ouvre `chrome://extensions` (Edge : `edge://extensions`), active le **Mode développeur** (en haut à droite).
+3. **Charger l'extension non empaquetée** → choisis le dossier décompressé.
+4. Pour une nouvelle version : remplace le contenu du dossier, puis clique sur ↻ sur la carte de l'extension.
 
 ### Configurer (une seule fois)
 
@@ -39,11 +46,11 @@ Le lien ne donne accès qu'à ta tâche en cours, en lecture. **Ne le partage pa
 
 ### Mettre à jour
 
-Pour l'instant, installe simplement la nouvelle version par-dessus l'ancienne (même lien que ci-dessus) : tes réglages sont conservés. Toutes les versions sont sur la page [Releases](https://github.com/anjclerc/farental-bar/releases).
+Firefox : depuis la 0.3.0, les mises à jour s'installent toutes seules. Si tu as la 0.2.0, installe une fois la nouvelle version par-dessus (même lien que ci-dessus) : tes réglages sont conservés. Toutes les versions sont sur la page [Releases](https://github.com/anjclerc/farental-bar/releases).
 
 ## Confidentialité
 
-L'extension ne contacte que farental.ch, n'envoie aucune donnée ailleurs et ne collecte rien. Détails : [PRIVACY.md](PRIVACY.md).
+L'extension ne contacte que farental.ch et ne collecte rien. Le bouton Carte ouvre simplement la carte uMap dans un onglet, avec le nom du lieu dans l'adresse ; la liste de courses reste dans ton navigateur. Détails : [PRIVACY.md](PRIVACY.md).
 
 ## Un problème, une idée ?
 
@@ -55,22 +62,22 @@ Ouvre une [issue](https://github.com/anjclerc/farental-bar/issues) ou écris sur
 
 ## English
 
-Your current **Farental** task, right in the Firefox or Chrome toolbar: the icon shows the kind of task and fills up from left to right as it progresses, pulses with a thin amber line when the task is done (one click opens the game page to claim your reward), and shows "Zz" when your character is idle. Clicking during a task opens a small window with a second-by-second countdown. Unofficial extension made by a player.
+Your current **Farental** task, right in the Firefox or Chrome toolbar: the icon shows the kind of task and fills up from left to right as it progresses, pulses with a thin amber line when the task is done (one click opens the game page to claim your reward), and shows "Zz" when your character is idle. Clicking during a task opens a small window with a second-by-second countdown, a **Map** button (community map centred on your character's location) and your **shopping list** of recipes (ingredients, quantities, a priority recipe, history). Unofficial extension made by a player.
 
-**Install (Firefox)**: download **[farental-bar.xpi](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar.xpi)** (signed by Mozilla) and accept the installation, or drag the file into a Firefox window. Chrome: the Web Store listing is under review.
+**Install (Firefox)**: download **[farental-bar.xpi](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar.xpi)** (signed by Mozilla) and accept the installation, or drag the file into a Firefox window. Chrome, Edge, Brave: the Web Store listing is under review; meanwhile download **[farental-bar-chrome.zip](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar-chrome.zip)**, unzip it into a folder you keep, open `chrome://extensions`, turn on *Developer mode* and *Load unpacked* that folder. Firefox updates itself from version 0.3.0.
 
 **Set up**: on [farental.ch/account](https://farental.ch/account), *Stream widget* section, generate your stream link, then click the extension's **?** icon and paste it in the settings. The link only gives read access to your current task; don't share it.
 
-**Privacy**: the extension only talks to farental.ch and collects nothing ([PRIVACY.md](PRIVACY.md)). Problems or ideas: [issues](https://github.com/anjclerc/farental-bar/issues).
+**Privacy**: the extension only talks to farental.ch and collects nothing (the Map button just opens the uMap page in a tab) ([PRIVACY.md](PRIVACY.md)). Problems or ideas: [issues](https://github.com/anjclerc/farental-bar/issues).
 
 <a id="deutsch"></a>
 
 ## Deutsch
 
-Deine laufende **Farental**-Aufgabe direkt in der Symbolleiste von Firefox oder Chrome: Das Symbol zeigt die Art der Aufgabe und füllt sich mit dem Fortschritt von links nach rechts, pulsiert mit einer feinen bernsteinfarbenen Linie, wenn die Aufgabe fertig ist (ein Klick öffnet die Spielseite zum Abholen der Belohnung), und zeigt „Zz“, wenn dein Charakter nichts tut. Ein Klick während der Aufgabe öffnet ein kleines Fenster mit sekundengenauem Countdown. Inoffizielle Erweiterung, von einem Spieler erstellt.
+Deine laufende **Farental**-Aufgabe direkt in der Symbolleiste von Firefox oder Chrome: Das Symbol zeigt die Art der Aufgabe und füllt sich mit dem Fortschritt von links nach rechts, pulsiert mit einer feinen bernsteinfarbenen Linie, wenn die Aufgabe fertig ist (ein Klick öffnet die Spielseite zum Abholen der Belohnung), und zeigt „Zz“, wenn dein Charakter nichts tut. Ein Klick während der Aufgabe öffnet ein kleines Fenster mit sekundengenauem Countdown, einem **Karte**-Knopf (Community-Karte, auf den Ort deines Charakters zentriert) und deiner **Einkaufsliste** für Rezepte (Zutaten, Mengen, ein vorrangiges Rezept, Verlauf). Inoffizielle Erweiterung, von einem Spieler erstellt.
 
-**Installieren (Firefox)**: **[farental-bar.xpi](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar.xpi)** herunterladen (von Mozilla signiert) und die Installation bestätigen, oder die Datei in ein Firefox-Fenster ziehen. Chrome: Der Eintrag im Web Store wird gerade geprüft.
+**Installieren (Firefox)**: **[farental-bar.xpi](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar.xpi)** herunterladen (von Mozilla signiert) und die Installation bestätigen, oder die Datei in ein Firefox-Fenster ziehen. Chrome, Edge, Brave: Der Eintrag im Web Store wird gerade geprüft; bis dahin **[farental-bar-chrome.zip](https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar-chrome.zip)** herunterladen, in einen dauerhaften Ordner entpacken, `chrome://extensions` öffnen, den *Entwicklermodus* einschalten und *Entpackte Erweiterung laden* wählen. Firefox aktualisiert sich ab Version 0.3.0 selbst.
 
 **Einrichten**: Auf [farental.ch/account](https://farental.ch/account) im Bereich *Stream-Widget* den Stream-Link erzeugen, dann auf das **?**-Symbol der Erweiterung klicken und den Link in den Einstellungen einfügen. Der Link erlaubt nur Lesezugriff auf deine laufende Aufgabe; gib ihn nicht weiter.
 
-**Datenschutz**: Die Erweiterung kommuniziert nur mit farental.ch und sammelt nichts ([PRIVACY.md](PRIVACY.md)). Probleme oder Ideen: [Issues](https://github.com/anjclerc/farental-bar/issues).
+**Datenschutz**: Die Erweiterung kommuniziert nur mit farental.ch und sammelt nichts (der Karte-Knopf öffnet nur die uMap-Seite in einem Tab) ([PRIVACY.md](PRIVACY.md)). Probleme oder Ideen: [Issues](https://github.com/anjclerc/farental-bar/issues).
