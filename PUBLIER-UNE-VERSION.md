@@ -6,7 +6,7 @@
 4. Ici : *Releases* → *Draft a new release*.
    - *Choose a tag* : `v<version>` (par exemple `v0.2.1`), *Create new tag*.
    - Titre : `Farental Bar <version>`, et deux ou trois lignes sur ce qui change.
-   - Joindre `farental-bar.xpi` **et** `farental-bar-chrome.zip` (le zip Chromium `npm run zip`, renommé).
+   - Joindre `farental-bar.xpi` seulement. Pas de zip Chromium ici : une extension chargée depuis un zip ne se met jamais à jour ; Chrome, Edge et Brave passent par le Chrome Web Store (zip `npm run zip` → tableau de bord → *Package* → *Importer un nouveau package* → *Envoyer pour examen*).
    - Laisse *Set as a pre-release* décoché : une pré-version n'est pas prise en compte par le lien « dernière version » du README.
    - *Publish release*.
 5. Vérifier que https://github.com/anjclerc/farental-bar/releases/latest/download/farental-bar.xpi télécharge bien la nouvelle version.
